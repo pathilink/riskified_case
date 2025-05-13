@@ -18,6 +18,8 @@ The aim is to simulate automatic order approval decision scenarios based on scor
   - Proportion of requests rejected with this threshold: **10%**
   - 10% of orders have a score of up to 0.86, and 90% have a score above 0.86.
 
+## Task 2: Analysis of the distribution of scores
+
 - **Method**  
   Used histogram with KDE to visualize the distribution of `classification_score`.
   The threshold defined in Task 1 was visually highlighted, separating the approval and rejection areas.
