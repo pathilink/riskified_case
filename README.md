@@ -2,7 +2,7 @@
 
 ![Status Badge](https://img.shields.io/static/v1?label=STATUS&message=COMPLETE&color=008000)
 
-## Objective
+## 🎯 Objective
 To carry out an exploratory and financial analysis based on a dataset containing classification scores, order values and approval or chargeback status.  
 The aim is to simulate automatic order approval decision scenarios based on score, understand the distribution of scores and calculate the fee required to maintain the desired ratio between revenue and cost of chargebacks.
 
@@ -28,6 +28,7 @@ The aim is to simulate automatic order approval decision scenarios based on scor
   The majority of requests have a high score, which justifies the possibility of maintaining a high approval rate safely.
 
 - **Graph:**
+
 ![score distribution](img/score_distribution.png)
 
 ## Task 3: Calculating the fee needed to balance costs and revenue
@@ -48,7 +49,7 @@ The aim is to simulate automatic order approval decision scenarios based on scor
   - Potential gross revenue (without fee): **$ 15,411,656.27**
   - **Fee required: 0.2%**
 
-## Conclusion
+## 🧠 Conclusion
 
 The analysis showed that it is possible to maintain an automatic approval policy with 90% of requests, using the score as the sole criterion, with financial control over the cost of chargebacks via a fee adjustment.
 
